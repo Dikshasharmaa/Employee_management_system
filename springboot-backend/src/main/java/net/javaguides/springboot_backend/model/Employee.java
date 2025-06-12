@@ -6,6 +6,13 @@ public class Employee {
     private String lastName;
     private String emailID;
 
+    public Employee(String firstName, String lastName, String emailID){
+        super();
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.emailID = emailID;
+    }
+
     public long getId(){
         return Id;
     }
